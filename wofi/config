@@ -1,0 +1,26 @@
+stylesheet=home/ayushjaipuriyar/.config/wofi/style.css
+hide_scroll=true
+show=drun
+width=30%
+lines=5
+line_wrap=word
+term=alacritty
+allow_markup=true
+always_parse_args=true
+show_all=true
+print_command=true
+layer=overlay
+allow-images=true
+insensitive=true
+prompt=
+image_size=30
+display_generic=true
+line_wrap=word
+key_expand=Tab
+
+# Vi keybindings
+key_forward=j
+key_backward=k
+key_submit=l
+key_hide_search=q
+key_pgup=Tab
