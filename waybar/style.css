@@ -67,7 +67,10 @@ window#waybar.empty {
 	color:#c57078;
 }
 #network {
-  color: #9da98d;
+  color: #e98df5;
+}
+#network.disabled {
+	background-color: #B00020
 }
 #custom-weather {
 	color:#81a1c1;

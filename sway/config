@@ -6,6 +6,9 @@
 
 ### Autostart
 exec mako
+exec whatsdesk
+exec libinput-gestures-setup start
+exec autotiling
 
 ### Variables
 #
@@ -233,9 +236,9 @@ include /etc/sway/config.d/*
 
 ### Special keys
 ### /usr/include/xkbcommon/xkbcommon-keysyms.h
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
-bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
+bindsym XF86AudioRaiseVolume exec ~/.local/bin/changevolume up 5
+bindsym XF86AudioLowerVolume exec ~/.local/bin/changevolume down 5
+bindsym XF86AudioMute exec ~/.local/bin/changevolume mute
 bindsym XF86AudioMicMute exec pactl set-source-mute 1 toggle 
 bindsym XF86MonBrightnessUp exec brightnessctl -c backlight set +5%
 bindsym XF86MonBrightnessDown exec brightnessctl -c backlight set 5%-
