@@ -3,12 +3,19 @@
 This is my first time ricing my setup.
 
 First attempt at ricing 
+
 OS : Fedora 33
+
 WM : Sway
+
 Terminal : Alacritty
+
 Shell : zsh
+
 Bar : Waybar
+
 Firefox  theme : Matte Black (Red)
+
 GTK 3 theme : Orchis-dark
 
 ##Screenshots
