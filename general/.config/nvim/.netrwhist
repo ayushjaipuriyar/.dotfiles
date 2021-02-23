@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/ayush/.config/awesome'
+let g:netrw_dirhist_6='/home/ayush/.config/awesome/elemental/bar'
+let g:netrw_dirhist_5='/home/ayush/.config/awesome/elemental'
+let g:netrw_dirhist_4='/home/ayush/.config/awesome'
+let g:netrw_dirhist_3='/home/ayush/.config/awesome/elemental/dashboard'
+let g:netrw_dirhist_2='/home/ayush/.config/awesome/elemental'
+let g:netrw_dirhist_1='/home/ayush/.config/awesome/elemental/bar'
+let g:netrw_dirhist_0='/home/ayush/.config/awesome/elemental'
+let g:netrw_dirhist_9='/home/ayush/.config/awesome'
+let g:netrw_dirhist_8='/home/ayush/.config/awesome/themes/amarena'
