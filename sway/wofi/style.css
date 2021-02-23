@@ -1,39 +1,79 @@
-window {
-	margin: 0px;
-	border: 1px solid #bd93f9;
-	background-color: #282a36;
+@define-color base10 #464646;
+@define-color base00 #3a3a3a;
+@define-color base01 #3b4252;
+@define-color base02 #434c5e;
+@define-color base03 #4c566a;
+@define-color base04 #d8dee9;
+@define-color base05 #e5e9f0;
+@define-color base06 #eceff4;
+@define-color base07 #a4c3b9;
+@define-color base08 #6a85a2;
+@define-color base09 #446c92;
+@define-color base0A #c8dff6;
+@define-color base0B #cb7073;
+@define-color base0C #d59877;
+@define-color base0D #dcbb8c;
+@define-color base0E #9da98d;
+@define-color base0F #8c94ae;
+
+#entry {
+border-radius: 5px;
+padding: 5px 2px 5px 2px;
+margin: 0px 4px 0px 4px;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+#entry:selected {
+color: @base0E;
+background-color: @base00;
+padding: 7px;
+}
+ 
+#text:selected {
+color: @base0E;
+}
+ 
+#window {
+animation-name: fadeIn;
+animation-duration: 0.4s;
+background-color: transparent;
+font-family: Ubuntu Mono;
+/* font-size:20px; */
 }
 
 #input {
-	margin: 5px;
-	border: none;
-	color: #f8f8f2;
-	background-color: #44475a;
+border: none;
+background-color: @base00;
+border-radius: 5px;
+margin: 4px 4px 8px 4px;
 }
 
 #inner-box {
-	margin: 5px;
-	border: none;
-	background-color: #282a36;
+color: @base04;
+border-radius: 5px;
+/* margin-right: 180px; */
 }
 
 #outer-box {
-	margin: 5px;
-	border: none;
-	background-color: #282a36;
+background-color: @base10;
+border-radius: 10px;
+padding: 10px;
+box-shadow: 0px 0px 6px 1px  #0F0F0F;
+margin: 25px;
 }
 
 #scroll {
-	margin: 0px;
-	border: none;
 }
 
 #text {
-	margin: 5px;
-	border: none;
-	color: #f8f8f2;
+color: @base04;
+background-color: transparent;
 } 
 
-#entry:selected {
-	background-color: #44475a;
+#img {
+  background-color: transparent;
 }
