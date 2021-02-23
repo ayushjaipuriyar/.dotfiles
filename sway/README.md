@@ -1,9 +1,5 @@
 ### Minimal
 
-This is my first time ricing my setup.
-
-First attempt at ricing 
-
 OS : Manjaro
 
 WM : Sway
